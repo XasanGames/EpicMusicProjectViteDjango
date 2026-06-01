@@ -84,6 +84,9 @@ CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
     "http://localhost:5174",
     "http://127.0.0.1:5174",
+    
+    # Твой живой фронтенд на Vercel (ЗАМЕНИ на свою ссылку!)
+    "https://epic-music-project-vite-django.vercel.app", 
 ]
 
 CORS_ALLOW_CREDENTIALS = True
