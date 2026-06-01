@@ -26,7 +26,11 @@ SECRET_KEY = 'django-insecure-*2$88=*h8h%#+x50hwtav(@9^3*_8zr26j8impj2h^vd_bhrq2
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'localhost',
+    '127.0.0.1',
+    'epicmusicprojectvitedjango.onrender.com',  # Твой бэкенд на Render
+]
 
 
 # Application definition
