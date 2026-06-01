@@ -1,0 +1,31 @@
+# --- Системные файлы и кэш ---
+.DS_Store
+Thumbs.db
+*.log
+__pycache__/
+*.pyc
+
+# --- Среды разработки (IDE) ---
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# --- Python / Django ---
+.venv/
+venv/
+ENV/
+env/
+/backend/.env
+db.sqlite3
+media/
+staticfiles/
+
+# --- Node / React ---
+node_modules/
+/frontend/.env
+/frontend/dist/
+/frontend/build/
+.npm
