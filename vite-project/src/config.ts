@@ -1,6 +1,9 @@
 // API Configuration
 // Change this URL when deploying to production
-export const API_BASE_URL = 'http://127.0.0.1:8000';
+export const API_BASE_URL = 
+    window.location.hostname === "localhost" || window.location.hostname === "127.0.0.1"
+        ? "http://127.0.0.1:8000"
+        : "https://epicmusicprojectvitedjango.onrender.com";
 
 // File upload settings
 export const MAX_FILE_SIZE = 100 * 1024 * 1024; // 100MB in bytes
